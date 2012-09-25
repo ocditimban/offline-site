@@ -1,0 +1,13 @@
+name = Offline-site-1
+core = 7.x
+package = Features
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = filefield_sources
+dependencies[] = phpbbforum
+dependencies[] = profile2
+dependencies[] = rules
+dependencies[] = webform
+features[features_api][] = api:1
+features[user_permission][] = access site in maintenance mode
+features[user_role][] = Full Members
